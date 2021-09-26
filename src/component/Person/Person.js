@@ -26,7 +26,7 @@ const Person = (props) => {
                     <p><strong>Age: </strong>{age}</p>
                     <p><strong>Salary:</strong> ${salary}/y</p>
                     <p><strong>Location: </strong>{location}</p>
-                    <button onClick={() => props.handleSalaryCart(props.person)} className="btn btn-primary w-100">{element} Add This Person</button>
+                    <button onClick={() => props.handleSalaryCart(props.person)} className="btn btn-primary w-100">{element}  Add This Person</button>
                     <p className='icons'><i className="fab fa-facebook-square"></i><i className="fab fa-instagram-square"></i><i className="fab fa-linkedin"></i><i className="fab fa-twitter-square"></i></p>
                 </div>
             </div>

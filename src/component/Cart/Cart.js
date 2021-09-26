@@ -20,6 +20,7 @@ const Cart = (props) => {
             <ul>
                 {nameList.map(name => <li key={name}>{name}</li>)}
             </ul>
+            <button className="btn btn-primary w-100">Hire them</button>
 
         </div>
     );
