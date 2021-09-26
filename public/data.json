@@ -10,14 +10,5 @@
     {"name": "Julkarnain Mahmud", "img": "https://avatars.githubusercontent.com/u/6968100?v=4", "designation": "Programmer", "salary": "135000", "location": "Australia"},
     {"name": "Zaheed Sabur", "img": "https://media-eng.dhakatribune.com/uploads/2019/05/web-zaheed-1556971049382.jpg", "designation": "Programmer", "salary": "150000", "location": "Senior Engineer"},
     {"name": "Clever Programmer", "img": "https://www.filepicker.io/api/file/9GCYH9YQnyqu4Ymwmzu9", "designation": "Web Developer", "salary": "125000", "location": "India"},
-    {"name": "Nike White", "img": "https://i.ytimg.com/vi/bJH1Pyvr1qc/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDjjUcwtRAqBWNGNb1l3ZAIQIEpdQ", "designation": "Programmer", "salary": "115000", "location": "USA"},
-    {"name": "", "img": "", "designation": "", "salary": "", "location": ""},
-    {"name": "", "img": "", "designation": "", "salary": "", "location": ""},
-    {"name": "", "img": "", "designation": "", "salary": "", "location": ""},
-    {"name": "", "img": "", "designation": "", "salary": "", "location": ""},
-    {"name": "", "img": "", "designation": "", "salary": "", "location": ""},
-    {"name": "", "img": "", "designation": "", "salary": "", "location": ""},
-    {"name": "", "img": "", "designation": "", "salary": "", "location": ""},
-    {"name": "", "img": "", "designation": "", "salary": "", "location": ""},
-    {"name": "", "img": "", "designation": "", "salary": "", "location": ""}
+    {"name": "Nike White", "img": "https://i.ytimg.com/vi/bJH1Pyvr1qc/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDjjUcwtRAqBWNGNb1l3ZAIQIEpdQ", "designation": "Programmer", "salary": "115000", "location": "USA"}
 ]
