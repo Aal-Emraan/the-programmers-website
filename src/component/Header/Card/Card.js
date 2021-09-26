@@ -5,7 +5,7 @@ const Card = (props) => {
     return (
         <div className="col-md-9 row g-3">
             {
-                props.persons.map(person => <Person person={person}></Person>)
+                props.persons.map(person => <Person person={person} handleSalaryCart={props.handleSalaryCart} key={person.key}></Person>)
             }
         </div>
     );

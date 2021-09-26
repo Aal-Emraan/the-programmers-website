@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Person = (props) => {
-    const {name,img,designation,salary,location} = props.person;
+    const {name,img,designation,salary,location,key} = props.person;
     const style = {
         width: "150px",
         height: "150px",
@@ -19,7 +19,7 @@ const Person = (props) => {
                     <p className="card-text">{designation}</p>
                     <p>Salary: ${salary}/y</p>
                     <p>Location: {location}</p>
-                    <a href="#" className="btn btn-primary d-block">Add This Person</a>
+                    <button onClick={() => props.handleSalaryCart(props.person)} className="btn btn-primary d-block">Add This Person</button>
                 </div>
             </div>
         </div>
