@@ -2,11 +2,12 @@
 
 Go to the live site [The Programmers](https://the-programmers-around-the-world-516e45.netlify.app/).
 
-## Available Scripts
+## In This Site You Can See...
 
-In the project directory, you can run:
-
-### `npm start`
+### * Information about top class programmers
+### * There yearly salay
+### * There age and there workplace
+### * You can hire them for your work
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
