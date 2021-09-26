@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import Cart from '../../Cart/Cart';
+import Cart from '../Cart/Cart';
 import Card from '../Card/Card';
+import './Programmers.css'
 
 const Programmers = () => {
     const [persons, setPersons] = useState([]);
@@ -16,9 +17,11 @@ const Programmers = () => {
         setInfo(newPersons);
     }
     return (
-        <div className="row">
-            <Card persons={persons}  handleSalaryCart={handleSalaryCart}></Card>
-            <Cart info={info}></Cart>
+        <div className="container programmers">
+            <div className="row">
+                <Card persons={persons}  handleSalaryCart={handleSalaryCart}></Card>
+                <Cart info={info}></Cart>
+            </div>
         </div>
     );
 };

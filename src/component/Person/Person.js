@@ -17,10 +17,10 @@ const Person = (props) => {
     }
     return (
         <div className="col-md-4">
-            <div className="card img-thumbnail">
+            <div className="card img-thumbnail text-white">
                 <img src={img} className="card-img-top" style={style} alt="..."/>
                 <div className="card-body">
-                    <h5 className="card-title text-center">{name}</h5>
+                    <h4 className="card-title text-center">{name}</h4>
                     <p className="card-text text-center">{designation}</p>
                     <p><strong>Works at: </strong>{workplace}</p>
                     <p><strong>Age: </strong>{age}</p>

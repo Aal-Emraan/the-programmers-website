@@ -1,0 +1,11 @@
+.header{
+    background-color: #30336bcb;
+    color: white;
+}
+
+.header h1{
+    color: goldenrod;
+}
+.header i{
+    font-size: 20px;
+}

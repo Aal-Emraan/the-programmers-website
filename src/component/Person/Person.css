@@ -1,13 +1,25 @@
-i{
+.card i{
     margin: 10px 10px;
     font-size: 25px;
-    color: rgb(95, 95, 95);
+    color: white;
     
 
 }
-i:hover{
-    color: indigo;
+.card i:hover{
+    color: grey;
 }
 .icons{
     text-align: center;
+    margin: 10px 0px -10px 0px;
+}
+.card{
+    background-color: #100863ec;
+    box-shadow: 0 0 10px #130f40;
+}
+
+.card strong{
+    color: goldenrod;
+}
+.card h4{
+    color: gold;
 }
