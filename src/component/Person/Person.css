@@ -1,0 +1,13 @@
+i{
+    margin: 10px 10px;
+    font-size: 25px;
+    color: rgb(95, 95, 95);
+    
+
+}
+i:hover{
+    color: indigo;
+}
+.icons{
+    text-align: center;
+}

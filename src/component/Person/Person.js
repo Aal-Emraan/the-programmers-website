@@ -1,7 +1,12 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUserTie } from '@fortawesome/free-solid-svg-icons'
+import './Person.css'
 
 const Person = (props) => {
-    const {name,img,designation,salary,location,key} = props.person;
+    const element = <FontAwesomeIcon icon={faUserTie} />
+    // const facebook = <FontAwesomeIcon icon={AiFillFacebook} />
+    const {name,img,designation,salary,location,age,workplace} = props.person;
     const style = {
         width: "150px",
         height: "150px",
@@ -15,11 +20,14 @@ const Person = (props) => {
             <div className="card img-thumbnail">
                 <img src={img} className="card-img-top" style={style} alt="..."/>
                 <div className="card-body">
-                    <h5 className="card-title">{name}</h5>
-                    <p className="card-text">{designation}</p>
-                    <p>Salary: ${salary}/y</p>
-                    <p>Location: {location}</p>
-                    <button onClick={() => props.handleSalaryCart(props.person)} className="btn btn-primary d-block">Add This Person</button>
+                    <h5 className="card-title text-center">{name}</h5>
+                    <p className="card-text text-center">{designation}</p>
+                    <p><strong>Works at: </strong>{workplace}</p>
+                    <p><strong>Age: </strong>{age}</p>
+                    <p><strong>Salary:</strong> ${salary}/y</p>
+                    <p><strong>Location: </strong>{location}</p>
+                    <button onClick={() => props.handleSalaryCart(props.person)} className="btn btn-primary w-100">{element} Add This Person</button>
+                    <p className='icons'><i className="fab fa-facebook-square"></i><i className="fab fa-instagram-square"></i><i className="fab fa-linkedin"></i><i className="fab fa-twitter-square"></i></p>
                 </div>
             </div>
         </div>
